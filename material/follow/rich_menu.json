@@ -1,0 +1,47 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "首頁",
+  "chatBarText": "圖文選單首頁",
+  "areas": [
+    {
+      "bounds": {
+        "x": 37,
+        "y": 87,
+        "width": 582,
+        "height": 742
+      },
+      "action": {
+        "type": "message",
+        "text": "我要看AI"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1242,
+        "y": 62,
+        "width": 652,
+        "height": 738
+      },
+      "action": {
+        "type": "message",
+        "text": "雲服務正夯，就業新導向"
+      }
+    },
+    {
+      "bounds": {
+        "x": 627,
+        "y": 99,
+        "width": 611,
+        "height": 697
+      },
+      "action": {
+        "type": "message",
+        "text": "區塊鏈也不錯"
+      }
+    }
+  ]
+}

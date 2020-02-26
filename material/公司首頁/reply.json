@@ -1,0 +1,24 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "要",
+            "text": "Yes",
+            "data": "menu=follow"
+          },
+          {
+            "type": "message",
+            "label": "不用",
+            "text": "No"
+          }
+        ],
+        "text": "是否要換回原本選單？"
+      }
+    }
+
+]

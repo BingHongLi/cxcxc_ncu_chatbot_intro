@@ -1,0 +1,26 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "輕薄省電型",
+            "text": "我要買輕薄省電型的",
+            "data": "type=save-energe"
+          },
+          {
+            "type": "postback",
+            "label": "高效玩家型",
+            "text": "我要買高效玩家型的",
+            "data": "type=high"
+          }
+        ],
+        "thumbnailImageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcQKBPY1w0KlT9MmKrWDMI2V5yrn42mbRhJ-QzN8RjNEfUWIjFrrEwwxYN230qMKBdbRqvshuNCW&usqp=CAc",
+        "title": "UX433FN",
+        "text": "請選擇規格"
+      }
+    }
+]

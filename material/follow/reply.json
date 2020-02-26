@@ -1,0 +1,67 @@
+[
+    {
+      "type": "text",
+      "text": "您好，我們公司的產品如下。"
+    },
+    {
+      "type": "image",
+      "originalContentUrl": "https://www.cxcxc.io/wp-content/uploads/2019/10/2019-10-28_AWS考證班108-1期_200106_0006.jpg",
+      "previewImageUrl": "https://www.cxcxc.io/wp-content/uploads/2020/01/cropped-工作區域-1.png",
+      "animated": false
+    },
+    {
+      "type": "template",
+      "altText": "this is a carousel template",
+      "template": {
+        "type": "carousel",
+        "actions": [],
+        "columns": [
+          {
+            "thumbnailImageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcQKBPY1w0KlT9MmKrWDMI2V5yrn42mbRhJ-QzN8RjNEfUWIjFrrEwwxYN230qMKBdbRqvshuNCW&usqp=CAc",
+            "title": "UX433FN",
+            "text": "筆電",
+            "actions": [
+              {
+                "type": "postback",
+                "label": "黑色-Postback",
+                "text": "我要看黑色款型的",
+                "data": "brand=asus&type=UX433FN&color=black"
+              },
+              {
+                "type": "uri",
+                "label": "到官網看看",
+                "uri": "https://www.cxcxc.io/awssaa/"
+              },
+              {
+                "type": "message",
+                "label": "黑色-Message",
+                "text": "brand=asus&type=UX433FN&color=black"
+              }
+            ]
+          },
+          {
+            "thumbnailImageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcSD2uLmblcQk0XAkw3Mqedn35-H1WZs0XAQOSSIseJLBsHlr2Wn7gQ&usqp=CAc",
+            "title": "UX430",
+            "text": "筆電2",
+            "actions": [
+              {
+                "type": "message",
+                "label": "Action 1",
+                "text": "Action 1"
+              },
+              {
+                "type": "message",
+                "label": "Action 2",
+                "text": "Action 2"
+              },
+              {
+                "type": "message",
+                "label": "Action 3",
+                "text": "Action 3"
+              }
+            ]
+          }
+        ]
+      }
+    }
+]
