@@ -4,8 +4,6 @@
 # In[ ]:
 
 
-get_ipython().system('pip install flask')
-get_ipython().system('pip install line-bot-sdk')
 
 
 # In[ ]:
